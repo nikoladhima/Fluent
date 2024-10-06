@@ -1,4 +1,4 @@
-local Fluent = loadstring(game:HttpGet("https://github.com/nikoladhima/Fluent/releases/latest/download/main.lua"))()
+local Fluent = loadstring(game:HttpGet("https://github.com/nikoladhima/Fluent/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/nikoladhima/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/nikoladhima/Fluent/master/Addons/InterfaceManager.lua"))()
 
