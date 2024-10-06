@@ -23,5 +23,3 @@ local Fluent = loadstring(game:HttpGet("https://github.com/nikoladhima/Fluent/re
 <br/>
 
 ## Credits
-
-- [NaikoScript](https://github.com/NaikoScript/NaikoScript) - Yes
