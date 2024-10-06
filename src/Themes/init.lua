@@ -5,6 +5,7 @@ local Themes = {
 		"Light",
 		"Aqua",
 		"Amethyst",
+		"Gremple",
 		"Rose",
 	},
 }
