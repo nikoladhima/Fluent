@@ -51,7 +51,8 @@ return function(props)
 			}),
 
 			New("UIGradient", {
-				Rotation = 90,
+				Offset = Vector2.new(-0.2, 0.15)
+				Rotation = 110,
 				ThemeTag = {
 					Color = "AcrylicGradient",
 				},
