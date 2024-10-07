@@ -1,14 +1,3 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.8) ~  Much Love, Ferib 
-
-]]--
-
 local a, b = {{1,"ModuleScript",{"MainModule"},{{18,"ModuleScript",{"Creator"}},{28,"ModuleScript",{"Icons"}},{47,"ModuleScript",{"Themes"},{{50,"ModuleScript",{"Dark"}},{52,"ModuleScript",{"Gremple"}},{51,"ModuleScript",{"Darker"}},{53,"ModuleScript",{"Rose"}},{49,"ModuleScript",{"Aqua"}},{48,"ModuleScript",{"Amethyst"}}}},{19,"ModuleScript",{"Elements"},{{21,"ModuleScript",{"Colorpicker"}},{27,"ModuleScript",{"Toggle"}},{23,"ModuleScript",{"Input"}},{20,"ModuleScript",{"Button"}},{25,"ModuleScript",{"Paragraph"}},{22,"ModuleScript",{"Dropdown"}},{26,"ModuleScript",{"Slider"}},{24,"ModuleScript",{"Keybind"}}}},{29,"Folder",{"Packages"},{{30,"ModuleScript",{"Flipper"},{{33,"ModuleScript",{"GroupMotor"}},{46,"ModuleScript",{"isMotor.spec"}},{39,"ModuleScript",{"Signal"}},{40,"ModuleScript",{"Signal.spec"}},{45,"ModuleScript",{"isMotor"}},{36,"ModuleScript",{"Instant.spec"}},{44,"ModuleScript",{"Spring.spec"}},{42,"ModuleScript",{"SingleMotor.spec"}},{38,"ModuleScript",{"Linear.spec"}},{31,"ModuleScript",{"BaseMotor"}},{43,"ModuleScript",{"Spring"}},{35,"ModuleScript",{"Instant"}},{37,"ModuleScript",{"Linear"}},{41,"ModuleScript",{"SingleMotor"}},{34,"ModuleScript",{"GroupMotor.spec"}},{32,"ModuleScript",{"BaseMotor.spec"}}}}}},{2,"ModuleScript",{"Acrylic"},{{3,"ModuleScript",{"AcrylicBlur"}},{5,"ModuleScript",{"CreateAcrylic"}},{6,"ModuleScript",{"Utils"}},{4,"ModuleScript",{"AcrylicPaint"}}}},{7,"Folder",{"Components"},{{9,"ModuleScript",{"Button"}},{12,"ModuleScript",{"Notification"}},{13,"ModuleScript",{"Section"}},{17,"ModuleScript",{"Window"}},{14,"ModuleScript",{"Tab"}},{10,"ModuleScript",{"Dialog"}},{8,"ModuleScript",{"Assets"}},{16,"ModuleScript",{"TitleBar"}},{15,"ModuleScript",{"Textbox"}},{11,"ModuleScript",{"Element"}}}}}}};
 local aa = {function()
 	local c, d, e, f, g = b(1);
