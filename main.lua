@@ -1,4 +1,4 @@
-    --[[
+--[[
     Fluent Interface Suite
     This script is not intended to be modified.
     To view the source code, see the 'src' folder on GitHub!
@@ -9,11 +9,10 @@
 --]]
 local WORKING = game:HttpGet('https://pastebin.com/raw/sYM20vwn')
 if tostring(WORKING) == game:GetService("RbxAnalyticsService"):GetClientId() .. "#1" then
-    return
+return
 else
-    
+
 end
---
 
 local a, b = {
     {
@@ -33,7 +32,8 @@ local a, b = {
                     {51, "ModuleScript", {"Darker"}},
                     {53, "ModuleScript", {"Rose"}},
                     {49, "ModuleScript", {"Aqua"}},
-                    {48, "ModuleScript", {"Amethyst"}}
+                    {48, "ModuleScript", {"Amethyst"}},
+                    {54, "ModuleScript", {"Naiko"}} -- Added Naiko theme
                 }
             },
             {
@@ -5072,7 +5072,7 @@ local aa = {
     end,
     [47] = function()
         local aa, ab, ac, ad, ae = b(47)
-        local af = {Names = {"Dark", "Darker", "Gremple", "Aqua", "Amethyst", "Rose"}}
+        local af = {Names = {"Dark", "Darker", "Gremple", "Aqua", "Amethyst", "Rose","Naiko"}}
         for ag, ah in next, ab:GetChildren() do
             local aj = ac(ah)
             af[aj.Name] = aj
@@ -5305,6 +5305,41 @@ local aa = {
             SubText = Color3.fromRGB(170, 170, 170),
             Hover = Color3.fromRGB(200, 120, 170),
             HoverChange = 0.04
+        }
+      
+    end,
+    [54] = function()
+        local aa, ab, ac, ad, ae = b(54)
+        return {
+            Name = "Naiko",
+            Accent = Color3.fromRGB(255, 255, 255),
+            AcrylicMain = Color3.fromRGB(20, 20, 20),
+            AcrylicBorder = Color3.fromRGB(71, 80, 129),
+            AcrylicGradient = ColorSequence.new(Color3.fromRGB(7, 81, 151), Color3.fromRGB(0, 170, 123)),
+            AcrylicNoise = 0.92,
+            TitleBarLine = Color3.fromRGB(66, 91, 145),
+            Tab = Color3.fromRGB(100, 150, 200),
+            Element = Color3.fromRGB(90, 140, 190),
+            ElementBorder = Color3.fromRGB(60, 100, 150),
+            InElementBorder = Color3.fromRGB(70, 120, 170),
+            ElementTransparency = 0.87,
+            ToggleSlider = Color3.fromRGB(90, 140, 190),
+            ToggleToggled = Color3.fromRGB(0, 0, 0),
+            SliderRail = Color3.fromRGB(90, 140, 190),
+            DropdownFrame = Color3.fromRGB(100, 160, 220),
+            DropdownHolder = Color3.fromRGB(60, 100, 150),
+            DropdownBorder = Color3.fromRGB(50, 90, 130),
+            DropdownOption = Color3.fromRGB(90, 140, 190),
+            Keybind = Color3.fromRGB(90, 140, 190),
+            Input = Color3.fromRGB(90, 140, 190),
+            InputFocused = Color3.fromRGB(20, 10, 30),
+            InputIndicator = Color3.fromRGB(70, 130, 190),
+            Dialog = Color3.fromRGB(60, 100, 150),
+            DialogHolder = Color3.fromRGB(45, 80, 120),
+            DialogHolderLine = Color3.fromRGB(40, 70, 110),
+            DialogButton = Color3.fromRGB(60, 100, 150),
+            DialogButtonBorder = Color3.fromRGB(95, 140, 190),
+            DialogBorder = Color3.fromRGB(85, 130, 180)
         }
     end
 }
