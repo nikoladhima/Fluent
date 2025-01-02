@@ -5335,11 +5335,11 @@ local aa = {
             InputFocused = Color3.fromRGB(20, 10, 30),
             InputIndicator = Color3.fromRGB(70, 130, 190),
             Dialog = Color3.fromRGB(60, 100, 150),
-            DialogHolder = Color3.fromRGB(45, 80, 120),
+            DialogHolder = Color3.fromRGB(25, 87, 79),
             DialogHolderLine = Color3.fromRGB(40, 70, 110),
-            DialogButton = Color3.fromRGB(60, 100, 150),
+            DialogButton = Color3.fromRGB(41, 119, 102),
             DialogButtonBorder = Color3.fromRGB(95, 140, 190),
-            DialogBorder = Color3.fromRGB(85, 130, 180)
+            DialogBorder = Color3.fromRGB(34, 61, 92)
         }
     end
 }
