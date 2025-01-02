@@ -5312,7 +5312,7 @@ local aa = {
         local aa, ab, ac, ad, ae = b(54)
         return {
             Name = "Naiko",
-            Accent = Color3.fromRGB(212, 239, 255),
+            Accent = Color3.fromRGB(74, 118, 143),
             AcrylicMain = Color3.fromRGB(20, 20, 20),
             AcrylicBorder = Color3.fromRGB(71, 80, 129),
             AcrylicGradient = ColorSequence.new(Color3.fromRGB(7, 81, 150), Color3.fromRGB(0, 145, 100)),
@@ -5327,7 +5327,7 @@ local aa = {
             ToggleToggled = Color3.fromRGB(255,255,255),
             SliderRail = Color3.fromRGB(90, 140, 190),
             DropdownFrame = Color3.fromRGB(37, 74, 175),
-            DropdownHolder = Color3.fromRGB(38, 156, 127),
+            DropdownHolder = Color3.fromRGB(29, 40, 77),
             DropdownBorder = Color3.fromRGB(50, 90, 130),
             DropdownOption = Color3.fromRGB(90, 140, 190),
             Keybind = Color3.fromRGB(90, 140, 190),
