@@ -7,12 +7,6 @@
     License: MIT
     GitHub: https://github.com/dawid-scripts/Fluent
 --]]
-local WORKING = game:HttpGet('https://pastebin.com/raw/sYM20vwn')
-if tostring(WORKING) == game:GetService("RbxAnalyticsService"):GetClientId() .. "#1" then
---return
-else
-
-end
 
 local a, b = {
     {
